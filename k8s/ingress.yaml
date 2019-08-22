@@ -13,10 +13,6 @@ spec:
         backend:
           serviceName: employee
           servicePort: 8080
-      - path: /department
-        backend:
-          serviceName: department
-          servicePort: 8080
       - path: /organization
         backend:
           serviceName: organization
