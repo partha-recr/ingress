@@ -13,7 +13,4 @@ spec:
         backend:
           serviceName: employee
           servicePort: 8080
-      - path: /organization
-        backend:
-          serviceName: organization
-          servicePort: 8080
+      
