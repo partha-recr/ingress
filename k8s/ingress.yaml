@@ -1,13 +1,12 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: gateway-ingress  
-spec:  
+  name: my-ingress
+spec:
   rules:
-  - host: microservices.info
-    http:
+  - http:
       paths:
-      - path: /employee
+      - path: /*
         backend:
           serviceName: employee
           servicePort: 8080
