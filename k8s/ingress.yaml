@@ -6,11 +6,11 @@ spec:
   rules:
   - http:
       paths:
-      - path: /employee/*
+      - path: employee/*
         backend:
           serviceName: employee
           servicePort: 8080
-      - path: /department/*
+      - path: department/*
         backend:
           serviceName: department
           servicePort: 8080
